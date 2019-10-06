@@ -1,0 +1,22 @@
+/*  alternative variants for css rules:
+
+    1).container > p:nth-last-of-type(1) {
+        background-color: #000;
+        color: #F00000;
+      }
+    2).container p:last-child {
+        background-color: #000;
+        color: #F00000;
+      }
+    if we need to do this with js, we can use code below:
+
+      const container = document.querySelector('.container');
+
+      container.lastElementChild.style.backgroundColor = '#000';
+      container.lastElementChild.style.color = '#FF0000';
+    
+*/
+.container p:nth-child(3) {
+    background-color: #000;
+    color:#F00000;
+  }

@@ -1,0 +1,1 @@
+const task6Regexp = /(?=.*Softeq)(?=.*#rules).*/;
